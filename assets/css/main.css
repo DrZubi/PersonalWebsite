@@ -194,7 +194,7 @@ hr {
   height: 0;
 }
 
-/**
+/** 
  * Contain overflow in all browsers.
  */
 pre {
@@ -579,6 +579,7 @@ nav {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   position: relative;
+  width: device-width;
 }@keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -626,6 +627,7 @@ nav ul li a {
   font-size: 30px;
   padding-left: 20px;
 }
+
 
 .o-list-bare,
 .c-social-buttons,

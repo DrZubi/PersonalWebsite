@@ -3,8 +3,15 @@
 <html lang="en">
 
     <head>
+        <title>About Omar</title>
 
-        <title>Omar Zu'bi Personal Website</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/Favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/Favicon/site.webmanifest">
+        
+        
 
         <meta name="description" content="">
 
@@ -31,7 +38,7 @@
         <!--<link rel="stylesheet" href="assets/css/themes.dark.css">-->
         
         <!-- Custom CSS -->
-        <!--<link rel="stylesheet" href="assets/css/custom.css">-->
+        <link rel="stylesheet" href="assets/css/custom.css">
 
         <!-- jQuery -->
         <script src="assets/js/jquery.min.js"></script>
@@ -50,24 +57,26 @@
 
         <!-- line JS-->
         <script src="assets/js/script.js"></script>
-        
-
 
     </head>
-
-     <!-- Spinning Circle -->
     <div class="c-preloader  js-preloader">
         <div class="c-preloader__spinner  t-preloader__spinner"></div>
     </div>
-
+    <!-- Removed the spinning circle for faster laod times-->
     <body>
+        <!-- Load React. IDK WHY ITS NOT WORKING HELP!!! -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+
         <div class="c-main-container  js-main-container">
         <!-- Navigation bar -->
             <nav>
                 <ul>
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="#">About</a></li>
-                <li><a href="#">Personal</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 </ul> 
             </nav>
             <section class="o-section  t-section  ">
@@ -84,7 +93,7 @@
                                     About Me
                                 </h2>
                                 <div class="o-content__body  o-section__description">
-                                    My character backstory
+                                    What I am all about
                                 </div>
                             </div>
                         </header><!-- /o-section__header -->
@@ -94,12 +103,12 @@
                             <div class="o-content">
                                 <div class="c-intro">
                                     <div class="o-content__body">
+                                    <div class = "typewriter"> <h1> Hello World!</h1> </div>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed
-                                            <a href="#" target="_blank">pretium</a>, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus.
-                                        </p>
-                                        <p>
-                                            Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna. Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis.
+                                            I am a motivated student who seeks employment or an internship as part of a dynamic multidisciplinary team. Capable of solving problems with ingenuity and extensive industrial as well as technical expertise.
+When I started college at Purdue University in the fall of 2017, I had my sights set on becoming an Industrial engineer and working with large tech corporations in their manufacturing operations. I chose my study because I believe that I can add value to any company by utilizing my extensive knowledge in lean manufacturing and data analytics. 
+Over the past few years, I've become increasingly interested in data science. Now, I have the ability to process and analyze big sets of data of all sorts and utilizing them for any company needs. I believe that I can use my wide variety of knowledge to introduce a cleaner and more profitable manufacturing techniques to any firm. It's about time for me to put my $200,000 education into use!
+                                        
                                         </p>
                                     </div>
                                 </div>
@@ -111,7 +120,327 @@
                 </div><!-- /o-container -->
 
             </section><!-- /o-section -->
-             
+
+            <!-- ############################################ -->
+            <!-- ############ Programming Skills ############ -->
+            <!-- ############################################-->
+
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Programming Skills
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    XP Bars
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    90<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>R</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="90"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    60<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Python</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="60"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    85<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>HTML & CSS</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="85"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    75<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>SQL</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="75"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    70<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>JavaScript</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="70"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    70<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>PHP</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="70"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    45<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Java</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="45"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    65<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>C#</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="65"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                            </div><!-- /o-grid -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+            <!-- ################################ -->
+            <!-- ############ Stats ############ -->
+            <!-- ################################ -->
+
+            <section class="o-section  t-section  ">
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    My Stats
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Some cool info
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Current Age</td>
+                                                    <td><script src="assets/js/tick.js"></script></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Current Vision</td>
+                                                    <td> Bad</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Best Friend</td>
+                                                    <td> <a class="c-image-overlay  t-image-overlay  js-lightbox" href="assets/images/other/mochi.jpeg"  title="Mochi is a Shiba Inu. I adopted her from Northville MI, United States." data-lightbox-gallery="portfolio">Mochi</a></td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Nerd for</td>
+                                                    <td>Star Wars</td>
+                                                </tr>
+                                                <tr>
+                                                    <td># of Countries Visited</td>
+                                                    <td><a href="map.html">21</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Last Updated the Site</td>
+                                                    <td> September 24, 2021</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+            </section>
+
+            <!-- ################################ -->
+            <!-- ############ FunFacts ############ -->
+            <!-- ################################ -->
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Fun Facts
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Miscellaneous information
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+                                        <ul>
+                                            <h2>Favorite Quotes and Character Lines </h2>
+                                                <li>"It gets easier. Every day it gets a little easier. But you got to do it every day. That's the hard part. But it does get easier." -BoJack Horseman Out to Sea <a href= "https://www.youtube.com/watch?v=S-ixV6nV0HU">(s02e12)</a></li>
+                                                <br></br>
+                                            <h2>Books I'm Currently Reading </h2>
+                                                <li>The Housemates, Iain Robwright (Thriller)</li>
+                                                <li>Sword of Destiny, Andrzej Sapkowski (Fantasy)</li>
+                                                <li>iWoz, Steve Wozniak with Gina Smith (Autobiography)</li>
+                                                <br></br>
+                                            <h2>Hobbies</h2>
+                                                <li>3D Printing</li>
+                                                <li>Coding Projects, Raspberry PI Kit</li>
+                                                <li>TV Show and Movie Enthusist</li>
+                                                <li>Cooking and Baking Lover <il>(not that I am any good at it)</il></li>
+                                                <li>Hiking and Rafting</li>
+                                                <li>Video Games (Rimworld, Factorio, FTL, Total War Series)</li>
+                                                <br></br>
+                                            <h2>Top 3 Strengths</h2>
+                                                <li>Determination to Succeed</li>
+                                                <li>Enthusiasim to tackle challenging problems</li>
+                                                <li>Attention to Details</li>
+                                                <br></br>
+                                            <h2>Top 3 Weaknesses</h2>
+                                                <li>Being too critical of myself </li>
+                                                <li>Public Speaking (need more confidence of myself that my ideas are being heard by others) </li>
+                                                <li>Imposter Syndrome (need more confidence in my abilities)</li>
+                                                <br></br>
+
+
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
+
+          
+
+
+
+
+
 
             <!-- ################################ -->
             <!-- ############ FOOTER ############ -->
@@ -166,7 +495,7 @@
                                     <div class="o-grid__col-md-3  o-grid__col-sm-6">
                                         <div class="o-content">
                                             <div class="o-content__body">
-                                                <a href="www.omarszubi.com" target="_blank" class="t-link-container">
+                                                <a href="https://omarszubi.com/" target="_blank" class="t-link-container">
                                                     <h4>Web</h4>
                                                     <p>
                                                         <span class="t-link-container__item--blended">
@@ -242,10 +571,6 @@
 
             </section><!-- /o-section -->
 
-
-
         </div><!-- /c-main-container -->
-
     </body>
-
 </html>

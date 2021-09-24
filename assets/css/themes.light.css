@@ -37,7 +37,7 @@ h6 {
 a,
 .t-link-container .t-link-container__item,
 .t-link-container:hover .t-link-container__item--blended {
-  color: #F8BB10;
+  color: #1075f8;
 }
 
 /* Hover Links */
@@ -45,7 +45,7 @@ a:hover,
 a:focus,
 a:active,
 .t-link-container:hover .t-link-container__item {
-  color: #e0a707;
+  color: #077ee0;
 }
 
 /* Horizontal Rulers */
@@ -62,18 +62,18 @@ hr,
 /* Primary Color */
 .t-primary-color,
 .t-primary-color-line {
-  color: #F8BB10;
+  color: #106df8;
 }
 
 .t-primary-bg,
 .t-primary-color-line {
-  background: #F8BB10;
+  background: #107cf8;
 }
 
 /* Preloader */
 .t-preloader__spinner:not(:required):before {
-  border-top-color: #F8BB10;
-  border-bottom-color: #F8BB10;
+  border-top-color: #1088f8;
+  border-bottom-color: #1075f8;
 }
 
 /* Brand Colors */
@@ -82,7 +82,7 @@ hr,
 }
 
 .t-title__second-word {
-  color: #F8BB10;
+  color: #1088f8;
 }
 
 .t-sub-title {
@@ -140,7 +140,7 @@ hr,
 .t-social-button:hover .far,
 .t-social-button:hover .fal,
 .t-social-button:hover .fab {
-  color: #F8BB10;
+  color: #1075f8;
 }
 
 /* Image Overlay */
