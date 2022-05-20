@@ -1930,6 +1930,11 @@ nav ul li a {
       justify-content: center;
 }
 
+.company_logo {
+      height: 5px;
+      width: 5px;
+}
+
 @media (min-width: 760px) {
   .c-header__top,
   .c-header__brand {
