@@ -36,9 +36,9 @@
         <link rel="stylesheet" href="assets/css/themes.light.css">
         <!--<link rel="stylesheet" href="assets/css/themes.dark.css">-->
         
-        <!-- Custom CSS -->
-        <!--<link rel="stylesheet" href="assets/css/custom.css">-->
-
+       <!-- Custom CSS -->
+       <link rel="stylesheet" href="assets/css/custom.css">
+        
         <!-- jQuery -->
         <script src="assets/js/jquery.min.js"></script>
 
@@ -56,6 +56,18 @@
 
         <!-- line JS-->
         <script src="assets/js/script.js"></script>
+
+
+
+        <!-- styling for the age counter-->
+        <style>
+            .age-cell {
+                width: 300x;
+            }
+        </style>
+
+
+
     </head>
 
      <!-- Spinning Circle -->
@@ -64,15 +76,11 @@
     </div>
 
     <body>
+        <!--Typewriter script-->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
         <div class="c-main-container  js-main-container">
-            <!-- Navigation bar-->
-            <nav>
-                <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                </ul> 
-            </nav>
             
             <!-- ################################ -->
             <!-- ############ HEADER ############ -->
@@ -136,12 +144,12 @@
                                                 </a>
                                             </li>
                                             <li class="a-header">
-                                                <a href="" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fa-solid fa-file-user"></i>
+                                                <a href="https://medium.com/@omar.s.zubi" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fab  fa-lg  fa-medium"></i>
                                                 </a>
                                             </li>
                                         </ul><!-- /c-header__social-buttons -->
-                                        
+
                                     </div><!-- /c-header__top -->
 
                                     <div class="c-header__contact">
@@ -228,14 +236,13 @@
 
                 <div class="o-container">
                     <div class="o-section__container">
-
                         <header class="o-section__header  t-section__header">
                             <div class="o-content">
                                 <h2 class="o-section__heading">
                                     Intro
                                 </h2>
                                 <div class="o-content__body  o-section__description">
-                                    Hello World!
+                                    My Introduction
                                 </div>
                             </div>
                         </header><!-- /o-section__header -->
@@ -245,13 +252,43 @@
                             <div class="o-content">
                                 <div class="c-intro">
                                     <div class="o-content__body">
-                                        <p><h3>Hello World! Welcome to my personal website.</h3></p>
+                                        <div class = "typewriter"> <h1> Hello World!</h1> </div>
                                         <p>
-                                           I am an energetic, ambitious, and self motivated individual who has developed a mature and responsible approach to any task that I undertake. I am a Data Analyst with profecient knlowdege in ML methods, data visualizations, and database management and queries.
-                                        </p>
-                                        <p><i>"Learn Con"</i> I always keep the attitude to learn how to </p>
-                                        <p>
-                                            I am excellent when in comes to working with others to acheive timley objectives with excellence.
+                                            <br>
+                                            Hello and welcome to my resume personal website. My name is Omar Zu'bi, and I'm a Data Analyst currently working at Sam Schwartz Engineering in New York City. 
+                                            I'm excited to share my professional experience and skills with you.
+                                             
+                                            I'm originally from Jordan, and I graduated from Purdue University with a degree in Industrial Engineering. 
+                                            Since then, I've worked as a Data Analyst/ Data Scientsit in the Traffic Engineering and Urban planning industry, gaining valuable experience in data analytics & visualization, 
+                                            forecasting modeling, Data ETL, and optimization modeling.
+                                            
+                                            My passion for data science stems from my love of coding, engineering, and statistics. 
+                                            I believe that my skills in big data analytics, machine learning models, and data visualization make me a valuable asset to any team.
+
+                                            Currently, I have 2+ years of experience in utilizing data to create meaningful insights and drive business decisions. 
+                                            My greatest stregth is that I am passionate about developing data-driven solutions and leveraging advanced analytics to solve complex problems. 
+                                            
+                                            <br><br>
+                                            Some of my projects linked in my personal github and projects I've contributed at Sam Schwartz Engineering showcase my deep understanding of data mining, machine learning, predictive analytics, and statistical modeling. 
+                                            I am also well-versed in data visualization and storytelling, which I use to communicate key insights to stakeholders. My experience in both data science and data analytics has enabled me to effectively collaborate with different teams and organizations. I’m skilled with a diverse set of tools including Python, R, and SQL. 
+                                            
+                                            <br><br>
+                                            When I'm not working, I enjoy 3D printing and modeling, minature painting, walking my dog Mochi!
+                                            
+                                            My goal with creating this website is to showcase my professional experience and skills to potential employers or clients. 
+                                            I'm always looking for new opportunities to learn and grow in my field, so if you're interested in working with me, please don't hesitate to reach out!
+                                            
+                                            <br><br>
+                                            Thank you for visiting my website, and I hope you enjoy learning more about me and my professional journey.
+                                            
+                                            <br><br>
+                                            Sincerely,
+                                            <br>
+                                            Omar Zu'bi
+                                            
+                                        
+                                        
+                                        
                                         </p>
                                     </div>
                                 </div>
@@ -281,7 +318,7 @@
                         <header class="o-section__header  t-section__header">
                             <div class="o-content">
                                 <h2 class="o-section__heading">
-                                    Projects
+                                    Personal Projects
                                 </h2>
                                 <div class="o-content__body  o-section__description">
                                     Projects I've worked on
@@ -292,28 +329,12 @@
                         <div class="o-section__content  t-section__content  ">
                             
                             <div class="o-grid">
-                                <div class="o-grid__col-sm-6">
-                                    <div class="o-media  o-media--block  o-content">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                01
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body  o-content__body">
-                                            <h3>ML Movie Recommendation Systems</h3>
-                                            <p>
-                                                This project makes use of matrix factorization and random clustering to help reccomend movies to users. An interactive dashboard was created using Tableau and embedded into a webpage that allows users to find recommended movies based on movies they liked. AWS, Flask, Web dev tools (HTML, CSS, and JS) and python! Web scrap too from IMDB webpages for poster images. 
-                                                <a href="https://github.com/DrZubi/ML_Movie_Recommendations_Systems">Click me!</a>
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-media o-content -->
-                                </div><!-- /o-grid__col -->
 
                                 <div class="o-grid__col-sm-6">
                                     <div class="o-media  o-media--block  o-content">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                02
+                                                01
                                             </div>
                                         </div>
                                         <div class="o-media__body  o-content__body">
@@ -330,7 +351,7 @@
                                     <div class="o-media  o-media--block  o-content">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                03
+                                                02
                                             </div>
                                         </div>
                                         <div class="o-media__body  o-content__body">
@@ -347,7 +368,7 @@
                                     <div class="o-media  o-media--block  o-content">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                04
+                                                03
                                             </div>
                                         </div>
                                         <div class="o-media__body  o-content__body">
@@ -363,7 +384,7 @@
                                     <div class="o-media  o-media--block  o-content">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                05
+                                                04
                                             </div>
                                         </div>
                                         <div class="o-media__body  o-content__body">
@@ -379,7 +400,7 @@
                                     <div class="o-media  o-media--block  o-content">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                06
+                                                05
                                             </div>
                                         </div>
                                         <div class="o-media__body  o-content__body">
@@ -395,7 +416,7 @@
                                     <div class="o-media  o-media--block  o-content">
                                         <div class="o-media__figure">
                                             <div class="c-number  t-primary-color">
-                                                07
+                                                06
                                             </div>
                                         </div>
                                         <div class="o-media__body  o-content__body">
@@ -461,44 +482,6 @@
                                     <div class="o-content">
                                        
                                         <div class="o-content__body">
-                                            <h3>Coding Languages</h3>
-                                            <p>
-                                                •Python •R •JavaScript •C# •VBA
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-                                
-                                <div class="o-grid__col-md-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                       
-                                        <div class="o-content__body">
-                                            <h3>Data Analytics</h3>
-                                                <center>
-                                                    <p>
-                                                        •Spark & Apache Hadoop •Flask •SQL •Postgres •Tableau + Prep •APIs •TensorFlow •Snowflake •Databricks
-                                                    </p>
-                                                </center>
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-md-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        
-                                        <div class="o-content__body">
-                                            <h3>Web Development</h3>
-                                            <p>
-                                                •HTML •CSS 
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-md-4  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                       
-                                        <div class="o-content__body">
                                             <h3>Data Analytics</h3>
                                             <p>
                                                 •Python •R •SQL •SQLite •Flask •VBA •AWS •Microsoft Azure •Tableau •Supervised ML Methods (imbalanced-learn, scikit-learn)
@@ -515,7 +498,185 @@
                 </div><!-- /o-container -->
 
             </section><!-- /o-section -->
+            <!-- ############################################ -->
+            <!-- ############ Programming Skills ############ -->
+            <!-- ############################################-->
 
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Programming Skills
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    XP Bars
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-grid">
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    85<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>R</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="85"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    90<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Python</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="90"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    85<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>HTML & CSS</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="85"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    75<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>SQL</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="75"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    70<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>JavaScript</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="70"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    70<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>PHP</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="70"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    45<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>Java</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="45"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                                <div class="o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <div class="o-media  o-media--block">
+                                            <div class="o-media__figure">
+                                                <div class="c-number  t-primary-color">
+                                                    65<small>%</small>
+                                                </div>
+                                            </div>
+                                            <div class="o-media__body">
+                                                <h3>C#</h3>
+                                            </div>
+                                        </div>
+                                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="65"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /o-grid__col -->
+
+                            </div><!-- /o-grid -->
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+
+            </section><!-- /o-section -->
 
             <!-- ################################ -->
             <!-- ########## EXPERIENCE ########## -->
@@ -561,21 +722,10 @@
                                                 <div class="c-work__location">
                                                     New York City, U.S.A
                                                 </div>
-                                                <div class = "logo">
-                                                    <img src="assets/images/Logos/sse.PNG" width = 35px height = 35px alt="logo" display = "inline-block"> 
-                                                </div>
                                             </div>
                                             <div class="o-grid__col-md-7">
                                                 <p>
-                                                    Key Job Roles: <br> 
-                                                    • Working with buisness intelligence tools to create key performance index reports and other internal reports<br> 
-                                                    • Manage and process big data projects and company's AWS and Azure DDB <br> 
-                                                    • Streamline or automate employee workflow by creating in-house programs and tools<br> 
-                                                    • Setup ETL data pipelines for new projects <br> 
-                                                    • Streamline data collection from data vendors using API's<br> 
-                                                    • On certian occasion, use webscrap programming to collect data<br> 
-                                                    • Create Data Management Plans (DMPs) for new projects<br> 
-                                                    • Field work to collect data<br> 
+                                                    Consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
                                                 </p>
                                             </div>
                                         </div>
@@ -591,42 +741,34 @@
                                         <div class="o-grid">
                                             <div class="o-grid__col-md-5">
                                                 <div class="c-work__timeframe">
-                                                    2021 &ndash; 2022
+                                                    2021 &ndash; Present
                                                 </div>
                                                 <h3 class="c-work__heading">
                                                     University Of Toronto
                                                 </h3>
                                                 <h4 class="c-work__title">
-                                                    UofT SCS Data Analytics
+                                                    Data Science Boot Camp
                                                 </h4>
                                                 <div class="c-work__location">
                                                     Toronto, Ontario. Canada
                                                 </div>
-                                                <div class = "logo">
-                                                    <img src="assets/images/Logos/uft.jpg" width = 35px height = 35px alt="logo" display = "inline-block"> 
-                                                </div>
                                             </div>
                                             <div class="o-grid__col-md-7">
                                                 <p>
-                                                   24 week program to learn and the skills and conduct robust analytics on real-world problems.
-                                                   • VBA and APIs
-                                                   • ETL and Data pipelines
-                                                   • Web Scrapping
-                                                   • Buisness Intelligence tools (Tableau)
-                                                   • Big Data Analytics, Spark, and Hadoop
-                                                   • Data Dashboarding and Front end Dev.
-                                                   • AWS Database, SQL, and MongoDB
-                                                   • Supervised and Unsuperivsed Machine Learning Models
-
+                                                    Consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
                 </div>
+
             </section>
 
 
@@ -662,17 +804,15 @@
 
 
                                     <div class="c-timeline__item">
-                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg">
-                                        </div>
+                                        <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
                                         <div class="o-content">
                                             <div class="o-grid">
                                                 <div class="o-grid__col-md-5">
                                                     <div class="c-work__timeframe">
-                                                        2017 &ndash; 2021 
+                                                        2017 &ndash; 2021
                                                     </div>
                                                     <h3 class="c-work__heading">
-                                                        Purdue University <!--&nbsp&nbsp&nbsp&nbsp -->  
-                                                        <!--<img src="assets/images/Logos/Purdue.PNG" width = 35px height = 35px alt="logo" display = "inline-block"> -->
+                                                        Purdue University
                                                     </h3>
                                                     <h4 class="c-work__title">
                                                         Bachelor of Science, Industrial Engineering
@@ -680,13 +820,10 @@
                                                     <div class="c-work__location">
                                                         West Lafyette, IN.  United States
                                                     </div>
-                                                    <div class = "logo">
-                                                        <img src="assets/images/Logos/purdue.PNG" width = 35px height = 35px alt="logo" display = "inline-block"> 
-                                                    </div>
                                                 </div>
                                                 <div class="o-grid__col-md-7">
                                                     <p>
-                                                        Industrial and systems engineering, with a focus on the design, imrpovment, and installation of integrated systems of people, materials, information, equipment, and energy. 
+                                                        Industrial and systems engineering, with a focus on the design, improvement and installation of integrated systems of people, materials, information, equipment, and energy. 
                                                     </p>
                                                 </div>
                                             </div><!-- /o-grid -->
@@ -710,24 +847,10 @@
                                                     <div class="c-work__location">
                                                         Amman, Jordan
                                                     </div>
-                                                    <div class = "logo">
-                                                        <img src="assets/images/Logos/acs.jpg" width = 35px height = 35px alt="logo" display = "inline-block"> 
-                                                    </div>
                                                 </div>
                                                 <div class="o-grid__col-md-7">
                                                     <p>
-                                                        Clubs and Activities: <br> 
-                                                        • Student Government rep
-                                                        • Robotics Club
-                                                        • Ultimate 
-                                                        • Junior Varsity Soccer
-                                                        • Track and Field
-
-                                                        Honors: <br>
-                                                        • AP Honors
-                                                        • Community Service Honors
-
-                                                    </p>
+                                                        Highschool in Amman, Jordan. Graduation honors include AP Hopnors, Community Service Honors
                                                 </div>
                                             </div><!-- /o-grid -->
                                         </div><!-- /o-content -->
@@ -766,6 +889,7 @@
                                     Busy as usual
                                 </div>
                             </div>
+                            
                         </header><!-- /o-section__header -->
 
                         <div class="o-section__content  t-section__content  ">
@@ -796,7 +920,7 @@
 
                                 <div class="o-grid__col-xl-4  o-grid__col-sm-6">
                                     <div class="o-content">
-                                        <a href="http://wordpress.com" target="_blank" class="t-link-container">
+                                        <a href="https://www.linkedin.com/in/omarzubi/" target="_blank" class="t-link-container">
                                             <div class="o-media  o-media--block">
                                                 <div class="o-media__figure">
                                                     <div class="c-profile__icon">
@@ -816,8 +940,27 @@
                                     </div><!-- /o-content -->
                                 </div><!-- /o-grid__col -->
 
-                                
-
+                                <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+                                    <div class="o-content">
+                                        <a href="https://medium.com/@omar.s.zubi" target="_blank" class="t-link-container">
+                                            <div class="o-media  o-media--block">
+                                                <div class="o-media__figure">
+                                                    <div class="c-profile__icon">
+                                                        <i class="fab  fa-lg  fa-medium"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="o-media__body  o-content__body">
+                                                    <h3 class="t-link-container__item">
+                                                        Medium
+                                                    </h3>
+                                                    <p>
+                                                        Articles I've written for Medium
+                                                    </p>
+                                                </div>
+                                            </div><!-- /o-media -->
+                                        </a><!-- /t-link-container -->
+                                    </div><!-- /o-content -->
+                                </div><!-- /o-grid__col -->
                             </div><!-- /o-grid -->
 
                         </div><!-- /o-section__content -->
@@ -862,7 +1005,7 @@
                                         <div class="o-content__body">
                                             <h3>3D Printing Club</h3>
                                             <p>
-                                                Lorem ipsum dolor sit amet, justo eget porttitor mauris sit amet felis. Neque id cursus faucibus.
+                                                Community of individuals who are passionate about creating things through 3D printing technology. 
                                             </p>
                                         </div>
                                     </div><!-- /o-content -->
@@ -874,7 +1017,7 @@
                                         <div class="o-content__body">
                                             <h3>Hello World Hackathon Committe</h3>
                                             <p>
-                                                Praesent dapibus dolor sit amet, justo eget porttitor mauris sit amet. Neque id cursus faucibus.
+                                                Hello World Hackathon is a event hosted by Purdue University to encourage Computer Science freshmen students to compete and create technology projects. I was a member of the orginization commitiee and assisted with creating sponsorship packages, logo and tshirt designs, student outreach.
                                             </p>
                                         </div>
                                     </div><!-- /o-content -->
@@ -886,7 +1029,7 @@
                                         <div class="o-content__body">
                                             <h3>Habitat for Humanity @Purdue</h3>
                                             <p>
-                                                Building affordable housing in the state of Indiana. 
+                                                Student-led organization that aims to make a difference in the local community by providing affordable housing for those in need. The organization works in partnership with the national Habitat for Humanity organization.
                                             </p>
                                         </div>
                                     </div><!-- /o-content -->
@@ -898,7 +1041,7 @@
                                         <div class="o-content__body">
                                             <h3>BoilerMake Hackathon</h3>
                                             <p>
-                                                3-day hackathon led by Purdue University. Partook in hackathon and was part of the orginization team. 
+                                                BoilerMake is a hackathon event hosted by Purdue University that brings together students and professionals from across the country to collaborate and create innovative solutions to real-world problems. The event is held annually and typically lasts for 36 hours, during which participants work in teams to build working prototypes of their projects.  Part of the orginization community for the Boilermake hackathon at Purdue Unviersity. I assisted with creating sponsorship packages, create budgeting sheets for the event, and student outreach.
                                             </p>
                                         </div>
                                     </div><!-- /o-content -->
@@ -922,7 +1065,7 @@
                                         <div class="o-content__body">
                                             <h3>Software Saturdays</h3>
                                             <p>
-                                                Weekend activity for enthusiastic Boilermakers intrested in software development to work on projects and learn about programming languages (JS and HTML)
+                                                Weekend activity for enthusiastic students intrested in software development to work on projects and learn about programming languages (JS and HTML)
                                             </p>
                                         </div>
                                     </div><!-- /o-content -->
@@ -949,6 +1092,96 @@
 
             </section><!-- /o-section -->
 
+
+            <!-- ################################ -->
+            <!-- ############ Stats ############ -->
+            <!-- ################################ -->
+
+            <section class="o-section  t-section  ">
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    My Stats
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    Some cool info
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+                            
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Current Age</td>
+                                                    <td class = "age-cell"><span id="age"></span></td>
+                                                    <script>
+                                                        // Set the birthdate
+                                                        let birthdate = new Date("1998-09-09");
+
+                                                        // Update the age every 1 milisecond
+                                                        setInterval(function() {
+                                                            // Calculate the age
+                                                            let age = calculateAge(birthdate);
+                                                
+                                                            // Update the HTML element with the age
+                                                            document.getElementById("age").textContent = age;
+                                                        }, 1);
+                                                
+                                                        // Calculate the age
+                                                        function calculateAge(birthdate) {
+                                                            let today = new Date();
+                                                            let ageInMilliseconds = today - birthdate;
+                                                            let ageInSeconds = ageInMilliseconds / 1000;
+                                                            let ageInMinutes = ageInSeconds / 60;
+                                                            let ageInHours = ageInMinutes / 60;
+                                                            let ageInDays = ageInHours / 24;
+                                                            let ageInYears = ageInDays / 365;
+                                                
+                                                            return ageInYears.toFixed(10);
+                                                        } </script>
+                                                </tr>
+                                                <tr>
+                                                    <td> Current Vision</td>
+                                                    <td> Bad</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Best Friend</td>
+                                                    <td> <a class="c-image-overlay  t-image-overlay  js-lightbox" href="assets/images/other/mochi.jpeg"  title="Mochi is a Shiba Inu. I adopted her from Northville MI, United States." data-lightbox-gallery="portfolio">Mochi</a></td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Nerd for</td>
+                                                    <td>Star Wars</td>
+                                                </tr>
+                                                <tr>
+                                                    <td># of Countries Visited</td>
+                                                    <td><a href="map.html">21</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td> Last Updated the Site</td>
+                                                    <td> September 24, 2021</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+            </section>
 
             <!-- ################################ -->
             <!-- ############ FOOTER ############ -->
@@ -985,6 +1218,17 @@
                                                 <address>
                                                     New York City, U.S.A
                                                 </address>
+                                            </div>
+                                        </div><!-- /o-content -->
+                                    </div><!-- /o-grid__col -->
+
+                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                        <div class="o-content">
+                                            <div class="o-content__body">
+                                                <h4>Phone</h4>
+                                                <p>
+                                                    646.690.8926
+                                                </p>
                                             </div>
                                         </div><!-- /o-content -->
                                     </div><!-- /o-grid__col -->
@@ -1056,10 +1300,9 @@
                                                     <i class="fab  fa-lg  fa-github"></i>
                                                 </a>
                                             </li>
-
-                                            <li class="a-header">
-                                                <a href="" target="_blank" class="c-social-button  t-social-button">
-                                                    <i class="fa-solid fa-file-user"></i>
+                                            <li class="a-footer">
+                                                <a href="https://medium.com/@omar.s.zubi" target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fab  fa-lg  fa-medium"></i>
                                                 </a>
                                             </li>
                                         </ul><!-- /c-footer__social-buttons -->
